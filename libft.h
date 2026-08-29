@@ -6,7 +6,7 @@
 /*   By: tkhunhan <tkhunhan@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/29 16:47:59 by tkhunhan          #+#    #+#             */
-/*   Updated: 2026/08/29 23:50:32 by tkhunhan         ###   ########.fr       */
+/*   Updated: 2026/08/30 01:10:28 by tkhunhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int		ft_tolower(int c);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
