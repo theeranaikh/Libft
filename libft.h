@@ -6,7 +6,7 @@
 /*   By: tkhunhan <tkhunhan@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/29 16:47:59 by tkhunhan          #+#    #+#             */
-/*   Updated: 2026/08/29 22:18:11 by tkhunhan         ###   ########.fr       */
+/*   Updated: 2026/08/29 23:25:12 by tkhunhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,10 @@ char	*ft_strrchr(const char *s, int c);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
-void	*ft_memset(void *b, int c, size_t len);
 void	ft_bzero(void *s, size_t n);
+void	*ft_memset(void *b, int c, size_t len);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
 void	*ft_memmove(void *dst, const void *src, size_t n);
+void	*ft_memchr(const void *s, int c, size_t n);
 
 #endif
